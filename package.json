@@ -1,0 +1,29 @@
+{
+  "name": "node-mysql-with-sequelize",
+  "version": "1.0.0",
+  "description": "Server in node using mysql with sequelize",
+  "main": "index.js",
+  "scripts": {
+    "sequelize": "sequelize ",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leosena777/node-mysql-with-sequelize.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leosena777/node-mysql-with-sequelize/issues"
+  },
+  "homepage": "https://github.com/leosena777/node-mysql-with-sequelize#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.5.0"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.2.0"
+  }
+}
